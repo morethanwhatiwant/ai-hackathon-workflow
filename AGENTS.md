@@ -4,7 +4,7 @@
 
 ## 공통 원칙
 
-- 시험 시작 시 이 문서의 5단계 워크플로와 `CHECKLIST.md`의 현재 시간 구간을 먼저 확인한다.
+- 시험 시작 시 [`START_HERE.md`](START_HERE.md)를 먼저 읽고, 현재 Phase에 맞는 프롬프트만 [`PROMPTS.md`](PROMPTS.md)에서 선택한다.
 - 현재 단계에 필요한 작업만 수행한다. 분석 단계에서 구현하거나, 검증 단계에서 범위를 확장하지 않는다.
 - 실제 시험 규정과 명시적 과제 요구사항이 이 저장소의 일반 지침보다 우선한다.
 - 제약을 **Hard Constraints**, **Soft Constraints**, **Assumptions**, **Edge Cases**로 명시적으로 구분한다. Hard Constraint는 타협하지 않고, Soft Constraint는 근거를 남긴 뒤 조정할 수 있다.

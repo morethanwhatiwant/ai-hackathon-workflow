@@ -7,12 +7,14 @@
 허용된 환경에서 다음 순서로 사용한다.
 
 1. 허용된 공개 저장소를 **Clone**한다.
-2. [`AGENTS.md`](AGENTS.md)를 첫 문서로 읽고 5단계 워크플로를 따른다. 최신 시험 가이드와 충돌하면 최신 가이드를 우선한다.
-3. 제공된 데이터와 규정을 조사하되 실제 시험 자료·정답·비공개 정보를 저장소에 옮기지 않는다.
-4. [`REQUIREMENTS_TEMPLATE.md`](REQUIREMENTS_TEMPLATE.md)로 요구사항, 제약, 가정, Edge Case와 테스트를 연결한다.
-5. 실제 데이터를 연결해 구현하고 [`TESTING_GUIDE.md`](TESTING_GUIDE.md)에 따라 생성과 독립 검증을 분리한다.
-6. [`AI_COLLABORATE_TEMPLATE.md`](AI_COLLABORATE_TEMPLATE.md)와 [`DECISION_LOG_TEMPLATE.md`](DECISION_LOG_TEMPLATE.md)에 객관적 근거와 사람의 최종 결정을 기록한다.
-7. [`CHECKLIST.md`](CHECKLIST.md)를 시간 구간별로 완료하고 검증된 결과만 제출한다.
+2. **[`START_HERE.md`](START_HERE.md)를 첫 번째 시작 문서로 열고 명령과 단계별 완료 조건을 확인한다.**
+3. [`AGENTS.md`](AGENTS.md)를 읽고 최신 시험 가이드와 충돌하는 경우 최신 가이드를 우선한다.
+4. [`PROMPTS.md`](PROMPTS.md)에서 현재 단계의 P1~P7 프롬프트만 선택해 사용한다.
+5. 제공된 데이터와 규정을 조사하되 실제 시험 자료·정답·비공개 정보를 저장소에 옮기지 않는다.
+6. `REQUIREMENTS_TEMPLATE.md`로 요구사항, 제약, 가정, Edge Case와 테스트를 연결한다.
+7. 실제 데이터를 연결해 구현하고 `TESTING_GUIDE.md`에 따라 생성과 독립 검증을 분리한다.
+8. `AI_COLLABORATE_TEMPLATE.md`와 `DECISION_LOG_TEMPLATE.md`에 객관적 근거와 사람의 최종 결정을 기록한다.
+9. `CHECKLIST.md`를 시간 구간별로 완료하고 검증된 결과만 제출한다.
 
 ## 시험 조건과 금지사항
 
@@ -29,10 +31,11 @@
 
 ## 포함 문서
 
-- [`AGENTS.md`](AGENTS.md) — 5단계 Codex 실행 규칙과 시험 제한
-- [`CHECKLIST.md`](CHECKLIST.md) — 정확한 180분 시간대별 체크리스트
-- [`TESTING_GUIDE.md`](TESTING_GUIDE.md) — 12개 실패·변경·회귀 검증 시나리오와 증거 필드
-- [`AI_COLLABORATE_TEMPLATE.md`](AI_COLLABORATE_TEMPLATE.md) — 순서가 고정된 17개 사람-AI 협업 기록 항목
-- [`REQUIREMENTS_TEMPLATE.md`](REQUIREMENTS_TEMPLATE.md) — 요구사항 유형과 추적표
-- [`DECISION_LOG_TEMPLATE.md`](DECISION_LOG_TEMPLATE.md) — AI 추천과 사람의 최종 선택을 구분하는 결정 기록
-- [`README.md`](README.md) — 저장소 목적, 사용 순서와 금지사항
+- [`START_HERE.md`](START_HERE.md) — 시험장 입장 직후 명령과 단계별 완료 조건
+- [`PROMPTS.md`](PROMPTS.md) — 분석부터 최종 검증까지 바로 쓰는 P1~P7 프롬프트
+- `AGENTS.md` — 단계별 Codex 실행 규칙
+- `CHECKLIST.md` — 180분 시간대별 체크리스트
+- `TESTING_GUIDE.md` — 실패·변경·회귀를 포함한 검증 지침
+- `AI_COLLABORATE_TEMPLATE.md` — 사람-AI 협업의 사실 기록
+- `REQUIREMENTS_TEMPLATE.md` — 요구사항 추적표
+- `DECISION_LOG_TEMPLATE.md` — 대안과 최종 채택 결정 기록
